@@ -1,0 +1,178 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+header{
+    background: #20949d;
+    padding:10px 0;
+ 
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width:50px;
+    height:50px;    
+}
+.menu{
+    margin: 0;
+   
+ }
+.menu_list{
+    display: inline;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+.menu_link, .menu_link:hover{
+    color:#fff;
+    text-decoration: none;
+    
+}
+.burger{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    position: relative;
+    border-radius:40px;
+}
+
+.burger-line,
+.burger-line:before,
+.burger-line:after{
+    content:'';
+    width:30px;
+    height:2px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    top:50%;    
+    left:50%;   
+    margin-left: -15px;
+    transition:.2s;
+    
+
+}
+.burger-line:before{
+    transform: translateY(-7px)
+}
+
+.burger-line:after{
+    transform:translateY(5px)
+}
+.burger{
+    display: none;
+}
+/* ===================Main Content===================== */
+
+.main-wrapper{
+    height:80vh;
+    background: url('../img/bg1.jpg')no-repeat ;
+    padding:100px 0;
+    color:#fff;
+    
+}
+.main-content{
+    width:500px;
+}
+.main-title{
+    font-size: 54px;
+    font-weight:600;
+    
+}
+.step{
+    text-transform: uppercase;
+}
+.main-content p{
+    margin: 40px 0;
+}
+.signin:hover,.signup:hover{
+    text-decoration: none;
+    color:#fff;
+    border:2px solid #20949d;
+    background: transparent;
+    transition: .4s;
+   
+}
+.signin{
+    margin-bottom: 10px;
+}
+.signin,.signup{
+    display: inline-block;
+    background:  #20949d;
+    padding:10px 80px;
+    border-radius:40px;
+    color:#fff;
+    box-sizing: border-box;
+    width:200px;
+    border:2px solid transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:12px;
+    letter-spacing: 1px;
+   
+}
+/* =======================Our Courses ================ */
+
+.our-courses{
+
+    background: url('../img/bg3.jpg')no-repeat center;
+    color:#fff;
+    background-size: cover;
+    padding:100px 0;
+    text-align: center;
+}
+.our-course-title{
+    font-size: 54px;
+    margin-bottom: 50px;
+    
+
+}
+.course-box{
+    
+    padding:40px 20px;
+}
+.course-box:hover{
+    background: #fff5e8;
+    color:#20949d;
+    padding:40px 20px;
+    border-radius:20px;
+    transition: .4s;
+}
+.course-img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin: 0 auto;
+    background: skyblue;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.js{
+    background: yellow;
+}
+.course-img img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+
+}
+.our-course-text{
+    font-weight: bold;
+}
+.python{
+    background: #fff;
+}
+.python img{
+    width: 100px;
+    height:100px;
+    
+}
