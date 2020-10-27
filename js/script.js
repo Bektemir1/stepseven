@@ -5,3 +5,14 @@ $('.burger').on('click', function (e) {
 
 
 })
+$(document).ready(function(){
+   
+    $('#content').load("./animations/main/data.html");
+ 
+
+ 
+ });
+
+
+
+   

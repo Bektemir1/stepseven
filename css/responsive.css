@@ -3,9 +3,7 @@
 @media(max-width:768px){
     .burger{
         display: block;
-    
         
-      
     }
     .menu-wrap{
         margin-top:-80vh;
@@ -36,8 +34,11 @@
         width: 100%;
         transition: .3s;
         
+       
+        
         
     }
+   
     .menu-wrap.menu-active .menu{
         margin:auto;
         

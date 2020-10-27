@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
+
 </head>
 <body>
 
@@ -16,7 +17,12 @@
 <header>
     <div class="container">
         <nav class="navigation">
-            <a class="logo" href="index.html"><img src="img/logo.png"></a>
+      <div class="logo">
+
+      </div>
+
+          </a>
+            
             <div class="menu-wrap">
                 <ul class="menu">
                     <li class="menu_list"><a class="menu_link" href="/">Башкы бет</a></li>
@@ -32,16 +38,29 @@
     </div>
 </header>
 
-<div class="main-wrapper">
-    <div class="container">
-        <div class="main-content">
-        <h1 class="main-title">IT-ге 7 <span class="step">кадам</span></h1>
-        <p>Lorem ipsum dolor, sit a Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusamus.met consectetur adipisicing elit. Aut unde cum similique eum ullam et numquam perferendis saepe. Cupiditate, porro.</p>
-        <a class="signin" href='/'>Кируу</a><br/>
-        <a class="signup" href='/'>Каттоо</a>
-    </div>
-    </div>
 
+<div class="main-wrapper ">
+    <video autoplay muted loop id="myVideo">
+        <source src="bgvideo.webm" type="video/webm">
+      
+      </video>
+      <div class="shadow"></div>
+      <div class="container pt-5">
+        <div class="row">
+            <div class="col-lg-6 pt-5">
+                <div class="main-content">
+                    <h1 class="main-title">IT-ге 7 <span class="step">кадам</span></h1>
+                    <p>Lorem ipsum dolor, sit a Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, accusamus.met consectetur adipisicing elit. Aut unde cum similique eum ullam et numquam perferendis saepe. Cupiditate, porro.</p>
+                    <a class="signin" href='/'>Кируу</a><br/>
+                    <a class="signup" href='/'>Каттоо</a>
+                </div>
+            </div>
+            <div class="col-lg-6" id="content">
+               
+                </div>
+        </div>
+        
+    </div>
 </div>
 
 <section class="our-courses">
@@ -84,6 +103,6 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 </html>
