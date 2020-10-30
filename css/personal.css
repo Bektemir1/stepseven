@@ -1,0 +1,46 @@
+body{ 
+     background: yellow;
+
+}
+.personal-room{
+    background: #fff;
+    padding:50px 50px;
+    margin: 100px 0;
+    position: relative;
+}
+.personal-box{
+    height:200px;
+    background: #209492;
+    margin-bottom: 40px;
+}
+.user{
+    position: absolute;
+    top:-65px;
+    text-align: center;
+
+}
+.user i{
+    font-size:64px;
+    margin-bottom: 10px;
+}
+.user-title{
+    font-size: 20px;
+    text-align: center;
+}
+.personal-title{
+    text-align: center;
+  margin-bottom: 20px;
+    font-size: 34px;
+    text-transform: uppercase;
+  font-weight: bold;
+    
+    
+}
+.line{
+    display: block;
+    width: 300px;
+    background: orange;
+    height:5px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}

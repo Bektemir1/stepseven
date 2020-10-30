@@ -141,7 +141,7 @@ header{
 /* =======================Our Courses ================ */
 
 .our-courses{
-
+    
     background: url('../img/bg3.jpg')no-repeat center;
     color:#fff;
     background-size: cover;
@@ -178,6 +178,77 @@ header{
 .our-course-text{
     font-weight: bold;
 }
+/* ===================== Our Aim======================== */
 
 
-/* =========================Animation============================ */
+.our-aim{
+    height:100vh;
+    background: url('../img/aim.png');
+    background-size:cover;
+    padding:100px 0;
+    
+}
+
+.aim-title{
+    font-size: 64px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    
+}
+/* ========================programming ========================== */
+.programming-block{
+    
+    background: url('../img/bg3.jpg')no-repeat center;
+    color:#fff;
+    background-size: cover;
+    padding:100px 0;
+    text-align: center;
+}
+.programming-block .course-img{
+    border:10px solid #fff;
+}
+.programming-block .our-course-title{
+    margin-bottom: 10px;
+}
+.title-paragraph{
+    margin-bottom: 50px;
+    font-size: 24px;
+    
+}
+
+/* ==================Login======================== */
+.body-login{
+    background: yellow;
+}
+.login-box{
+    width:400px;
+    position: relative;
+    margin: 100px auto;
+  
+  
+    
+}
+.login-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.login-box input{
+    width:70%;
+    padding:10px 20px;
+    margin-bottom: 20px;
+    border:none;
+    background: #209492;
+    border-radius:40px;
+  
+    
+}
+.login-box input:focus{
+    outline:none;
+}
+.login-box label{
+    width:20%;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-weight: bold;
+}
